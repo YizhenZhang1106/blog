@@ -106,9 +106,29 @@ params:
       - icon: fab fa-instagram
         title: Instagram
         url: 'https://www.instagram.com/yizhenzhang_tony/'
+      - icon: fab fa-envelope
+        title: E-mail
+        url: 'mailto:zhangyizhen025@gmail.com'
     title: Links
   theme:
     mainTheme: ocean
     showAttribute: yes
     singlePage: no
   title: Yizhen Zhang 
+# Menu items
+menu:
+  meun.main:
+  - name = "Home"
+  - identifier ="Home"
+  - weigth = 100
+  - url = "/"
+  meun.main:
+  - name = "Blog"
+  - identifier = "blog"
+  - weight = 200
+  - url = "/post/"
+  menu.main:
+  - name = "More Info"
+  - identifier = "more information"
+  - weight = 300
+  - url = "/more information/"
