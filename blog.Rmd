@@ -1,0 +1,24 @@
+---
+title: "blog"
+author: "Yizhen Zhang"
+date: '2022-08-08'
+output: html_document
+---
+
+```{r}
+library(blogdown)
+install_hugo()
+blogdown::new_site(theme = "darshanbaral/aafu")
+```
+
+```{r}
+blogdown::stop_server()
+```
+```{r}
+blogdown::hugo_version()
+```
+
+```{r}
+blogdown::serve_site()
+```
+

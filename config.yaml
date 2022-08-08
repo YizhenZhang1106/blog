@@ -33,7 +33,7 @@ params:
       - company: CMIC Technology Ltd. 
         dates: April 2022 - *Present*
         details: Cooperate with the project manager to carry out the research of "Economic Impact and Policy Suggestions of New Infrastructure Industry" of the 2021 High-end Science and Technology Innovation Intellectual database Youth Project of China Association for Science and Technology. Cooperate with the project manager to carry out projects related to the transformation of the Hainan government's digital intelligence, responsible for data collection and data analysis.
-        position: Intern (remote)
+        position: Intern (Remote)
    
     title: Experiences
   favicons:
@@ -59,14 +59,14 @@ params:
   project:
     icon: fas fa-project-diagram
     list:
-      - description: Description of the project
-        title: Project 1
+      - description: We collected PM2.5 concentration data for California for the year 2020 based on the needs of the instructor, used R language to clarify the data, generated a visualization report, screened out the high concentration values and combined them with data from the California government to detect wildfires. We used ArcGIS to conduct a spatial analysis to compare the high PM2.5 concentrations in some areas with the current population mobility and to analyze whether there is a correlation. The final regression model was developed and it was concluded that there was a negative correlation between population mobility and PM2.5 concentrations in the state during the onset of the wildfires.
+        title: Data Analysis Report on the Relationship between Air Quality and Population Mobility in California, USA
         url: '#'
-      - description: Description of the project
-        title: Project 2
+      - description: Based on the distribution of existing on-street parking meters in the City of Boston, the distribution pattern of it in residential and commercial areas was analyzed. After analyzing the conditions and requirements of the installation locations, a prediction model was developed to analyze the areas and streets where new parking meters could be installed based on the above conditions, taking into account other factors such as the average income and population density of the area.
+        title: Boston street parking meter installation plan
         url: '#'
-      - description: Description of the project
-        title: Project 3
+      - description: An exploratory data analysis was conducted using R language for restaurant food inspections in Boston from 2010 to 2020. Screened valid data, performed data cleaning, data transformation, and data integration. A data model to assess the restaurant's business capability was created, and data visualization mapping and spatial visualization mapping and visualization reports were generated. The analysis of the data model led to the conclusion that most of the restaurants with high ratings had a large number of minor violations and that the food safety department should strengthen control and increase penalties.
+        title: Analysis of food safety testing data reports for restaurants in Boston, USA
         url: '#'
     title: Projects
   showInAccordion:
@@ -111,4 +111,4 @@ params:
     mainTheme: ocean
     showAttribute: yes
     singlePage: no
-  title: Aafu theme
+  title: Yizhen Zhang 
