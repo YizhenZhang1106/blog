@@ -115,20 +115,3 @@ params:
     showAttribute: yes
     singlePage: no
   title: Yizhen Zhang 
-# Menu items
-menu:
-  meun.main:
-  - name = "Home"
-  - identifier ="Home"
-  - weigth = 100
-  - url = "/"
-  meun.main:
-  - name = "Blog"
-  - identifier = "blog"
-  - weight = 200
-  - url = "/post/"
-  menu.main:
-  - name = "More Info"
-  - identifier = "more information"
-  - weight = 300
-  - url = "/more information/"
