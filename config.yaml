@@ -1,44 +1,40 @@
-baseURL: https://www.example.org/
+baseURL: https://yizhen1106-portfolio.netlify.app/
 languageCode: en-us
+title: Yizhen Zhang Portfolio
 theme: aafu
 params:
   aboutme:
-    description: This is a demo of the `aafu` theme. It has `light`, `dark`, `ocean`,
-      and `pinkish` themes.
+    description: My name is Yizhen Zhang and I will graduate with M.S. degree in Urban informatics this summer from Northeastern University, Boston, MA. I built this website using blogdow package in R-Studio and here, you can read about my background, my interests, my work, and experiences.
     icon: fas fa-user
     title: About Me
-  author: Darshan Baral
+  author: Yizhen Zhang 
   copyright: short copyright message
   description: Website title
   education:
     icon: fas fa-graduation-cap
     list:
-      - college: University of State-City
-        dates: 2013 - 2018
-        degree: Ph.D. in Subject
-        thesis_title: 'Effect of humans on other humans: a study of human behavior.'
-        thesis_url: '#'
-      - college: University of State-City
-        dates: 2013 - 2018
-        degree: M.S. in Subject
-        thesis_title: 'Effect of humans on other humans: a study of human behavior.'
-        thesis_url: '#'
-      - college: University of State-City
-        dates: 2004 - 2009
-        degree: B.S. in Subject
+      - college: University of Northeastern Boston Campus
+        dates: Fall 2021 - Summer 2022
+        degree: M.S. in Urban informatics
+        
+      - college: University of Colorado Boulder
+        dates: Fall 2016 - Spring 2021
+        degree: B.S. in Geography
     title: Education
   experience:
     icon: fas fa-briefcase
     list:
-      - company: Company Name
-        dates: 2019 - *Present*
-        details: Printed from desktop. Sent [emails](#). Called people using telephone.
-          Drank water from office cooler. Ate donuts on people's birthdays.
-        position: Job Title
-      - company: Company Name
-        dates: 2018 - 2019
-        position: Job Title
-        url: '#'
+      - company: Northeastern-Research Practicum
+        dates: May 2022 - *Present*
+        details: I was fortunate to have a opportunity to work with Professor Wang (Ryan Wang). We are working a project about Predicting the mobility pattern in city when the natural hazards happened, especially wildfire.In this project, I was focusing on the wildfire in California and the relationship bewteen air quality and mobility data. Analysis the daily mobility data and air quality data monitering wildfire cases that affect air quality and finding correlation and regression bewteen them. Eventually, considering other elements such as gender, race population, population density on different block group, travel distance & travel time, build a multi-regression model apply to our final prediction model. Ultimately, apply this prediction model into an APPs on phones which can tell people which specific location or area have health risk, avoiding people visit those areas. 
+        position: Research Assissant
+        
+      
+      - company: CMIC Technology Ltd. 
+        dates: April 2022 - *Present*
+        details: Cooperate with the project manager to carry out the research of "Economic Impact and Policy Suggestions of New Infrastructure Industry" of the 2021 High-end Science and Technology Innovation Intellectual database Youth Project of China Association for Science and Technology. Cooperate with the project manager to carry out projects related to the transformation of the Hainan government's digital intelligence, responsible for data collection and data analysis.
+        position: Intern (remote)
+   
     title: Experiences
   favicons:
     metas: "        <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"apple-touch-icon.png\">\n
@@ -51,15 +47,15 @@ params:
   hobby:
     icon: fas fa-gamepad
     list:
-      - hobby: Cooking
-      - hobby: Hiking
-      - hobby: Baking
+      - hobby: Workout
+      - hobby: Video games
+      - hobby: Cat person
     title: Hobbies
   profile:
-    location: City Name, ST
-    name: First Last, Abbr.
-    photo: profile.jpg
-    tagline: Title
+    location: Beijing, China
+    name: Yizhen Zhang
+    photo: Portfolio_image.jpg
+    tagline: M.S. Urban informatics
   project:
     icon: fas fa-project-diagram
     list:
@@ -72,43 +68,7 @@ params:
       - description: Description of the project
         title: Project 3
         url: '#'
-      - description: Description of the project
-        title: Project 4
-        url: '#'
     title: Projects
-  publication:
-    format:
-      - date
-      - authors
-      - title
-      - journal
-    icon: fas fa-book
-    list:
-      - authors: F Last, F Second, P secondary
-        date: '2018'
-        journal: Journal of Field 52 (16), 9033-9044
-        title: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.
-        type: Journal Articles
-        url: '#'
-      - authors: F Last, F Second, P secondary
-        date: '2018'
-        journal: Journal of Field 52 (16), 9033-9044
-        title: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.
-        type: Journal Articles
-        url: '#'
-      - authors: F Last, F Second, P secondary
-        date: '2018'
-        journal: Journal of Field 52 (16), 9033-9044
-        title: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.
-        type: Proceedings
-        url: '#'
-    title: Publications
-    types:
-      - Journal Articles
-      - Proceedings
   showInAccordion:
     - expand: yes
       item: aboutme
@@ -121,37 +81,31 @@ params:
   skill:
     icon: fas fa-cogs
     list:
-      - skill: Skill 1, Skill 2
+      - skill:  ArcGIS, QGIS
         skillrating: 90
-      - skill: Skill 3
+      - skill: R-studio
         skillrating: 80
-      - skill: Skill 4
+      - skill: SQL
         skillrating: 50
+      - skill: Mongodb
+        skillrating: 30
+      - skill: English
+        skillrating: 85
+      - skill: Japanese
+        skillrating: 35
     panelId: skill-panel
     title: Skills
   social:
     list:
       - icon: fab fa-linkedin-in
         title: LinkedIn
-        url: '#'
-      - icon: fab fa-stack-overflow
-        title: StackOverflow
-        url: '#'
+        url: 'https://www.linkedin.com/in/yizhen-zhang-949039234/'
       - icon: fab fa-github
         title: GitHub
-        url: '#'
-      - icon: fab fa-twitter
-        title: Twitter
-        url: '#'
-      - icon: fab fa-orcid
-        title: Orcid
-        url: '#'
-      - icon: ai ai-google-scholar
-        title: Google Scholar
-        url: '#'
-      - icon: fab fa-researchgate
-        title: ResearchGate
-        url: '#'
+        url: 'https://github.com/YizhenZhang1106'
+      - icon: fab fa-instagram
+        title: Instagram
+        url: 'https://www.instagram.com/yizhenzhang_tony/'
     title: Links
   theme:
     mainTheme: ocean
