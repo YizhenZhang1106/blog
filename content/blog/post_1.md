@@ -2,6 +2,8 @@
 categories:
 - Project
 - PPUA6966
+- Wildfire
+- Air Quality
 date: "2022-08-20"
 description: 123
 draft: false

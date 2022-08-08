@@ -2,6 +2,8 @@
 categories:
 - Project
 - PPUA5263
+- Spatial Analysis
+- Parking
 date: "2022-05-01"
 description: Boston street parking meter installation plan
 draft: false
@@ -12,5 +14,5 @@ tags:
 title: Boston street parking meter installation plan
 ---
 
-# non tempor mauris elementum semper
+# 
 
