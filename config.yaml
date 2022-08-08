@@ -106,6 +106,9 @@ params:
       - icon: fab fa-instagram
         title: Instagram
         url: 'https://www.instagram.com/yizhenzhang_tony/'
+      - icon: fab fa-envelope
+        title: E-mail
+        url: 'mailto:zhangyizhen025@gmail.com'
     title: Links
   theme:
     mainTheme: ocean
