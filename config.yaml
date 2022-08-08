@@ -4,7 +4,7 @@ title: Yizhen Zhang Portfolio
 theme: aafu
 params:
   aboutme:
-    description: My name is Yizhen Zhang and I will graduate with M.S. degree in Urban informatics this summer from Northeastern University, Boston, MA. I built this website using blogdow package in R-Studio and here, you can read about my background, my interests, my work, and experiences.
+    description: My name is Yizhen Zhang and I will graduate with M.S. degree in Urban informatics this summer from Northeastern University, Boston, MA. I built this website using blogdown package in R-Studio and here, you can read about my background, my interests, my work, and experiences.
     icon: fas fa-user
     title: About Me
   author: Yizhen Zhang 

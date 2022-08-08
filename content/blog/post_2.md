@@ -1,4 +1,5 @@
 ---
+
 categories:
 - Project
 - PPUA5263
@@ -14,6 +15,7 @@ tags:
 title: Boston street parking meter installation plan
 author: Yizhen Zhang
 ---
+![cover](/blog/post_2_files/cover.PNG)
 # Introduction:
   Based on my living experience in Boston, it is hard to park on the street, most of the time street parking are always occupied, and I want use parking meter as my topic, and find some interesting information about it, to analyze the pattern of the parking meters’ distribution and relationship with land use map or correlate with other type of maps. 
 
