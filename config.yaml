@@ -1,0 +1,160 @@
+baseURL: https://www.example.org/
+languageCode: en-us
+theme: aafu
+params:
+  aboutme:
+    description: This is a demo of the `aafu` theme. It has `light`, `dark`, `ocean`,
+      and `pinkish` themes.
+    icon: fas fa-user
+    title: About Me
+  author: Darshan Baral
+  copyright: short copyright message
+  description: Website title
+  education:
+    icon: fas fa-graduation-cap
+    list:
+      - college: University of State-City
+        dates: 2013 - 2018
+        degree: Ph.D. in Subject
+        thesis_title: 'Effect of humans on other humans: a study of human behavior.'
+        thesis_url: '#'
+      - college: University of State-City
+        dates: 2013 - 2018
+        degree: M.S. in Subject
+        thesis_title: 'Effect of humans on other humans: a study of human behavior.'
+        thesis_url: '#'
+      - college: University of State-City
+        dates: 2004 - 2009
+        degree: B.S. in Subject
+    title: Education
+  experience:
+    icon: fas fa-briefcase
+    list:
+      - company: Company Name
+        dates: 2019 - *Present*
+        details: Printed from desktop. Sent [emails](#). Called people using telephone.
+          Drank water from office cooler. Ate donuts on people's birthdays.
+        position: Job Title
+      - company: Company Name
+        dates: 2018 - 2019
+        position: Job Title
+        url: '#'
+    title: Experiences
+  favicons:
+    metas: "        <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"apple-touch-icon.png\">\n
+      \       <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"favicon-32x32.png\">\n
+      \       <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"favicon-16x16.png\">\n
+      \       <link rel=\"manifest\" href=\"site.webmanifest\">\n        <link rel=\"mask-icon\"
+      href=\"safari-pinned-tab.svg\" color=\"#252627\">\n        <link rel=\"shortcut
+      icon\" href=\"favicon.ico\">\n        "
+    use: yes
+  hobby:
+    icon: fas fa-gamepad
+    list:
+      - hobby: Cooking
+      - hobby: Hiking
+      - hobby: Baking
+    title: Hobbies
+  profile:
+    location: City Name, ST
+    name: First Last, Abbr.
+    photo: profile.jpg
+    tagline: Title
+  project:
+    icon: fas fa-project-diagram
+    list:
+      - description: Description of the project
+        title: Project 1
+        url: '#'
+      - description: Description of the project
+        title: Project 2
+        url: '#'
+      - description: Description of the project
+        title: Project 3
+        url: '#'
+      - description: Description of the project
+        title: Project 4
+        url: '#'
+    title: Projects
+  publication:
+    format:
+      - date
+      - authors
+      - title
+      - journal
+    icon: fas fa-book
+    list:
+      - authors: F Last, F Second, P secondary
+        date: '2018'
+        journal: Journal of Field 52 (16), 9033-9044
+        title: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.
+        type: Journal Articles
+        url: '#'
+      - authors: F Last, F Second, P secondary
+        date: '2018'
+        journal: Journal of Field 52 (16), 9033-9044
+        title: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.
+        type: Journal Articles
+        url: '#'
+      - authors: F Last, F Second, P secondary
+        date: '2018'
+        journal: Journal of Field 52 (16), 9033-9044
+        title: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.
+        type: Proceedings
+        url: '#'
+    title: Publications
+    types:
+      - Journal Articles
+      - Proceedings
+  showInAccordion:
+    - expand: yes
+      item: aboutme
+    - item: experience
+    - item: education
+    - item: publication
+    - item: project
+    - item: skill
+    - item: hobby
+  skill:
+    icon: fas fa-cogs
+    list:
+      - skill: Skill 1, Skill 2
+        skillrating: 90
+      - skill: Skill 3
+        skillrating: 80
+      - skill: Skill 4
+        skillrating: 50
+    panelId: skill-panel
+    title: Skills
+  social:
+    list:
+      - icon: fab fa-linkedin-in
+        title: LinkedIn
+        url: '#'
+      - icon: fab fa-stack-overflow
+        title: StackOverflow
+        url: '#'
+      - icon: fab fa-github
+        title: GitHub
+        url: '#'
+      - icon: fab fa-twitter
+        title: Twitter
+        url: '#'
+      - icon: fab fa-orcid
+        title: Orcid
+        url: '#'
+      - icon: ai ai-google-scholar
+        title: Google Scholar
+        url: '#'
+      - icon: fab fa-researchgate
+        title: ResearchGate
+        url: '#'
+    title: Links
+  theme:
+    mainTheme: ocean
+    showAttribute: yes
+    singlePage: no
+  title: Aafu theme
