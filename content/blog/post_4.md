@@ -55,8 +55,9 @@ Research Question 3: What is the difference between construction’s added value
 
 Based on the maps, it can clearly see the building added values vs total values ratio the South Boston has higher ratio when it excluded Logan airport. It means South Boston having more investment compared to North Boston. By looking at the average age of building in each neighborhood, the Buildings located at the South Boston were older than North Boston. As I combined those map, the government sent more money on redeveloping the city. Like the plot from question 1, there is a rapidly growth in 2009 to 2010 which I assume that in 2022 there will be a rapid growth on Building permit, and especially concentrate on South Boston’s development, which can equalize the resource and economy among entire Boston city.
 
-![NewYork](/blog/post_4_files/NYC1.png)
+
 # The effect of COVID on NYC citizens by income (Year: 2020)
+![NewYork](/blog/post_4_files/NYC1.png)
 
 NYC has a vast income disparity by borough. The Bronx has one of the largest populations in NYC, second to Queens, but it contains the least amount of wealth (in comparison to population size). Brooklyn is composed of a population that has varied income, but most of the population makes less than $50,000 or are unemployed. Manhattan is the 3rd largest borough in terms of population, and the majority make over $50,000. Queens is the largest borough and has a mixed income population, with the majority making under $50,000 and a high unemployment rate.
 
