@@ -19,7 +19,7 @@ params:
         
       - college: University of Colorado Boulder
         dates: Fall 2016 - Spring 2021
-        degree: B.S. in Geography
+        degree: B.A. in Geography
     title: Education
   experience:
     icon: fas fa-briefcase
@@ -59,16 +59,25 @@ params:
   project:
     icon: fas fa-project-diagram
     list:
-      - description: We collected PM2.5 concentration data for California for the year 2020 based on the needs of the instructor, used R language to clarify the data, generated a visualization report, screened out the high concentration values and combined them with data from the California government to detect wildfires. We used ArcGIS to conduct a spatial analysis to compare the high PM2.5 concentrations in some areas with the current population mobility and to analyze whether there is a correlation. The final regression model was developed and it was concluded that there was a negative correlation between population mobility and PM2.5 concentrations in the state during the onset of the wildfires.
+      - description: Collecting PM2.5 concentration data for California in 2020 and combined them with wildfires data from CA government website. Using ArcGIS to conduct a spatial analysis to compare the high PM2.5 concentrations and finding areas with the current population mobility and to analyze whether there is a correlation and generate a regression model based on the correlation.
         title: Data Analysis Report on the Relationship between Air Quality and Population Mobility in California, USA
-        url: '#'
-      - description: Based on the distribution of existing on-street parking meters in the City of Boston, the distribution pattern of it in residential and commercial areas was analyzed. After analyzing the conditions and requirements of the installation locations, a prediction model was developed to analyze the areas and streets where new parking meters could be installed based on the above conditions, taking into account other factors such as the average income and population density of the area.
+        url: '/post_1/'
+      - description: Based on the distribution of existing on-street parking meters in the City of Boston, create a prediction model was developed to analyze the areas and streets where new parking meters could be installed.
         title: Boston street parking meter installation plan
-        url: '#'
-      - description: An exploratory data analysis was conducted using R language for restaurant food inspections in Boston from 2010 to 2020. Screened valid data, performed data cleaning, data transformation, and data integration. A data model to assess the restaurant's business capability was created, and data visualization mapping and spatial visualization mapping and visualization reports were generated. The analysis of the data model led to the conclusion that most of the restaurants with high ratings had a large number of minor violations and that the food safety department should strengthen control and increase penalties.
+        url: '/post_2'
+      - description: An exploratory data analysis was conducted using R for restaurant food inspections in Boston from 2010 to 2020. To use the variables from the data to build a predict model or ranking system for restaurants based on different types of violation records and using the violation description to determine the coefficient of the ranking and predict model.
         title: Analysis of food safety testing data reports for restaurants in Boston, USA
-        url: '#'
-    title: Projects
+        url: '/post_3'
+      - description: Poster
+        title: My City Space and Time-Airbnb Dataset
+        url: ''
+      - description: Poster
+        title: Building Permit in Boston during COVID-19, and City's Development Trend
+        url: ''
+      - description: Poster
+        title: The effect of COVID on NYC citizens by income in-2020
+        url: ''
+    title: Project
   showInAccordion:
     - expand: yes
       item: aboutme
@@ -113,5 +122,5 @@ params:
   theme:
     mainTheme: ocean
     showAttribute: yes
-    singlePage: no
+    singlePage: yes
   title: Yizhen Zhang 
