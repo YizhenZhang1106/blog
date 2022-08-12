@@ -24,16 +24,14 @@ Based on my living experience in Boston, it is hard to park on the street, most 
 3. Where are the places need to set up more parking meters?
 
 # Data (Layers):
-(/./post_2_files/project2-1.PNG)<img src="/./post_2_files/project2-1.PNG" alt="" width="60%" height="60%"/>
-
+![Boston parking meter map](/./post_2_files/project2-1.PNG)
 
 # Converted Layers:
   Central Boston: select Neighborhood blocks contains Parking meters.
 
-<img src="/./post_2_files/project2-2.PNG" alt="" width="60%" height="60%"/>
+![Central Boston](/blog/post_2_files/project2-3.PNG)
 
 ![Central Boston Clip](/blog/post_2_files/project2-4.PNG)
-<img src="/./post_2_files/project2-4.PNG" alt="Central Boston Clip" width="60%" height="60%"/>
 Central Boston Clip: using Central Boston layers to clip land use Boston.
 
 # Methods
@@ -44,21 +42,17 @@ Central Boston Clip: using Central Boston layers to clip land use Boston.
 
 # Result & analysis:
 1. Based on analysis the attribute table from parking meter layer, the distribution of parking meter near the land use type, it clear shows that most parking meters located near commercial area and residential area.![table1](/blog/post_2_files/project2-5.png)
-<img src="/./post_2_files/project2-5.PNG" alt="table1" width="30%" height="30%"/>
 
 2. The result for commercial and residential are most equally distribute. Then creating a density heat map for parking meters, which show an important finding in this project. The map shows that commercial area have higher density of parking meters. ![Parking meter density map](/blog/post_2_files/project2-6.PNG)
-<img src="/./post_2_files/project2-6.PNG" alt="Parking meter density map" width="60%" height="60%"/>
 Looking at the clusters, the distribution of parking meters near commercial area were more clustered than    distribution of parking meters around residential area. It is better to set up more parking meters in commercial area. Also, by looking at commercial area, most clustered area has residential area next to it. The selection of place need meets the requirement at both commercial area and residential area.
 ![Parking meter density with land use map](/blog/post_2_files/project2-7.PNG)
-<img src="/./post_2_files/project2-7.PNG" alt="Parking meter density with land use map" width="60%" height="60%"/>
 
 
 3. Using 2010 population density map from Boston planning& development agency to compare my density heat map of parking meters. Visually, all the clustered places have a high population density except Downtown Boston. Based on the population density, the place with higher density has a higher demand of parking space.![2010 Boston population density map](/blog/post_2_files/project2-8.PNG)
-<img src="/./post_2_files/project2-8.PNG" alt="2010 Boston population density map" width="60%" height="60%"/>
 
 
 4. Using 2021 median household income map as an indicator to determine whether the local government having more budget to set up parking meters. Higher median household income means local government getting more taxes, which have higher chance to spend money on parking meters.![2021 Boston Median Household income map](/blog/post_2_files/project2-9.PNG)
-<img src="/./post_2_files/project2-9.PNG" alt="2021 Boston Median Household income map" width="60%" height="60%"/>
+
 
 
 # Limitation:
