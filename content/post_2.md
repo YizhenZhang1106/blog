@@ -25,7 +25,7 @@ Based on my living experience in Boston, it is hard to park on the street, most 
 
 # Data (Layers):
 ![Boston parking meter map](/./post_2_files/project2-1.PNG)
-<img src="/./post_2_files/project2-1.PNG" alt="Boston parking meter map" width="80%"/>
+<img src="/./post_2_files/project2-1.PNG" alt="" width="60%" height="60%"/>
 
 # Converted Layers:
   Central Boston: select Neighborhood blocks contains Parking meters.
