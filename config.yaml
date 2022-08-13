@@ -70,14 +70,14 @@ params:
         url: '/post_3'
       - description: Poster
         title: My City Space and Time-Airbnb Dataset
-        url: ''
+        url: '/post_4'
       - description: Poster
         title: Building Permit in Boston during COVID-19, and City's Development Trend
-        url: ''
+        url: '/post_5'
       - description: Poster
-        title: The effect of COVID on NYC citizens by income in-2020
-        url: ''
-    title: Project
+        title: The effect of COVID on NYC citizens by income
+        url: '/post_6'
+    title: Project & Poster
   showInAccordion:
     - expand: yes
       item: aboutme

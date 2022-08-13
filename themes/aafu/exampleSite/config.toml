@@ -1,10 +1,10 @@
-baseURL = "https://www.example.org/"
+baseURL = "https://yizhen1106-portfolio.netlify.app/"
 languageCode = "en-us"
 theme = "aafu"
 
 [params]
     title = "Aafu theme"
-    author = "Darshan Baral"
+    author = "Yizhen Zhang"
     description = "Website title"
     copyright = "short copyright message"
 
@@ -12,7 +12,7 @@ theme = "aafu"
         # Available themes are 'light', 'dark', 'ocean', and 'pinkish'
         mainTheme = "ocean"
         # setting false below will hide 'aafu by darshan' displayed under the profile pic
-        showAttribute = true
+        showAttribute = false
         singlePage = false
 
     [params.favicons]
@@ -28,10 +28,10 @@ theme = "aafu"
 
     # Profile section
     [params.profile]
-        name = "First Last, Abbr."
-        tagline = "Title"
-        location = "City Name, ST"
-        photo = "profile.jpg"
+        name = "Yizhen Zhang."
+        tagline = "M.S. Urban informatics"
+        location = "Beijing, China"
+        photo = "Portfolio_image.jpg"
 
     # Section for links to social websites
     [params.social]
@@ -39,32 +39,20 @@ theme = "aafu"
 
         [[params.social.list]]
             icon = "fab fa-linkedin-in"
-            url = "#"
+            url = "https://www.linkedin.com/in/yizhen-zhang-949039234/"
             title = "LinkedIn"		
         [[params.social.list]]
-            icon = "fab fa-stack-overflow"
-            url = "#"
-            title = "StackOverflow"
-        [[params.social.list]]
             icon = "fab fa-github"
-            url = "#"
+            url = "https://github.com/YizhenZhang1106"
             title = "GitHub"
         [[params.social.list]]
-            icon = "fab fa-twitter"
-            url = "#"
-            title = "Twitter"
+            icon = "fab fa-instagram"
+            url = "https://www.instagram.com/yizhenzhang_tony/"
+            title = "Instagram"
         [[params.social.list]]
-            icon = "fab fa-orcid"
-            url = "#"
-            title = "Orcid"
-        [[params.social.list]]
-            icon = "ai ai-google-scholar"
-            url = "#"
-            title = "Google Scholar"
-        [[params.social.list]]
-            icon = "fab fa-researchgate"
-            url = "#"
-            title = "ResearchGate"
+            icon = "fab fa-envelope"
+            url = "mailto:zhangyizhen025@gmail.com"
+            title = "E-mail"
 
     #Specify what is showin in the Accordion
     [[params.showInAccordion]]
@@ -79,6 +67,8 @@ theme = "aafu"
     [[params.showInAccordion]]
         item = "project"
     [[params.showInAccordion]]
+        item = "poster"
+    [[params.showInAccordion]]
         item = "skill"
     [[params.showInAccordion]]
         item = "hobby"
@@ -86,7 +76,7 @@ theme = "aafu"
     [params.aboutme]
         title = "About Me"
         icon = "fas fa-user"
-        description = "This is a demo of the `aafu` theme. It has `light`, `dark`, `ocean`, and `pinkish` themes."
+        description = "My name is Yizhen Zhang and I will graduate with M.S. degree in Urban informatics this summer from Northeastern University, Boston, MA. I built this website using blogdown package in R-Studio and here, you can read about my background, my interests, my work, and experiences."
 
     # Experience section
     [params.experience]
@@ -94,70 +84,28 @@ theme = "aafu"
         icon = "fas fa-briefcase"
 
         [[params.experience.list]]
-            position = "Job Title"
-            dates = "2019 - *Present*"
-            company = "Company Name"
-            details = "Printed from desktop. Sent [emails](#). Called people using telephone. Drank water from office cooler. Ate donuts on people's birthdays."
+            position = "Research Assisant"
+            dates = "May 2022 - *Present*"
+            company = "Northeastern University"
+            details = "I was fortunate to have a opportunity to work with Professor Wang (Ryan Wang). We are working a project about Predicting the mobility pattern in city when the natural hazards happened, especially wildfire.In this project, I was focusing on the wildfire in California and the relationship bewteen air quality and mobility data. Analysis the daily mobility data and air quality data monitering wildfire cases that affect air quality and finding correlation and regression bewteen them. Eventually, considering other elements such as gender, race population, population density on different block group, travel distance & travel time, build a multi-regression model apply to our final prediction model. Ultimately, apply this prediction model into an APPs on phones which can tell people which specific location or area have health risk, avoiding people visit those areas."
         [[params.experience.list]]
-            position = "Job Title"
-            dates = "2018 - 2019"
-            url = "#"
-            company = "Company Name"
+            position = "Intern (Remote)"
+            dates = "April 2022 - *Present*"
+            company = "CMIC Technology Ltd. "
+            details ="Cooperate with the project manager to carry out the research of 'Economic Impact and Policy Suggestions of New Infrastructure Industry' of the 2021 High-end Science and Technology Innovation Intellectual database Youth Project of China Association for Science and Technology. Cooperate with the project manager to carry out projects related to the transformation of the Hainan government's digital intelligence, responsible for data collection and data analysis."
 
     # Education section
     [params.education]
         title = "Education"
         icon = "fas fa-graduation-cap"
-
         [[params.education.list]]
-            degree = "Ph.D. in Subject"
-            college = "University of State-City"
-            dates = "2013 - 2018"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
-            thesis_url = "#"
+            degree = "M.S. in Urban informatics"
+            college = "Northeastern University-Boston"
+            dates = "Fall 2021 - Summer 2022"
         [[params.education.list]]
-            degree = "M.S. in Subject"
-            college = "University of State-City"
-            dates = "2013 - 2018"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
-            thesis_url = "#"
-        [[params.education.list]]
-            degree = "B.S. in Subject"
-            college = "University of State-City"
-            dates = "2004 - 2009"
-
-    # Publication section
-    [params.publication]
-        title = "Publications"
-        icon = "fas fa-book"
-        #The order below determines the order in which the items appear in "Publications" section
-        format = ["date", "authors", "title", "journal"]
-        #If you don't want to group publications, comment the line below by adding # at the beginning
-        types = ["Journal Articles", "Proceedings"]
-
-        [[params.publication.list]]
-            title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            authors = "F Last, F Second, P secondary"
-            date = "2018"
-            journal = "Journal of Field 52 (16), 9033-9044"
-            url = "#"
-            type = "Journal Articles"
-
-        [[params.publication.list]]
-            title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            authors = "F Last, F Second, P secondary"
-            date = "2018"
-            journal = "Journal of Field 52 (16), 9033-9044"
-            url = "#"
-            type = "Journal Articles"
-		
-        [[params.publication.list]]
-            title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            authors = "F Last, F Second, P secondary"
-            date = "2018"
-            journal = "Journal of Field 52 (16), 9033-9044"
-            url = "#"
-            type = "Proceedings"
+            degree = "B.A. in Geography"
+            college = "University of Colorado-Boulder"
+            dates = "Fall 2016 - Spring 2021"
 
     # Project section
     [params.project]
@@ -176,11 +124,25 @@ theme = "aafu"
             title = "Project 3"
             url = "#"
             description = "Description of the project"
-        [[params.project.list]]
-            title = "Project 4"
+            
+    # Poster section
+    [params.poster]
+      title = "Posters"
+      icon = "fas fa-project-diagram"
+     
+      [[params.poster.list]]
+            title = "poster 1"
             url = "#"
             description = "Description of the project"
-
+      [[params.poster.list]]
+            title = "poster 2"
+            url = "#"
+            description = "Description of the project"
+      [[params.poster.list]]
+            title = "poster 3"
+            url = "#"
+            description = "Description of the project"  
+      
     # Skill section
     [params.skill]
         title = "Skills"
@@ -196,6 +158,13 @@ theme = "aafu"
         [[params.skill.list]]
             skill = "Skill 4"
             skillrating = 50
+        [[params.skill.list]]
+            skill = "Skill 5"
+            skillrating = 40
+        [[params.skill.list]]
+            skill = "Skill 6"
+            skillrating = 30
+       
 
     # Hobby section
     [params.hobby]
@@ -203,8 +172,8 @@ theme = "aafu"
         icon = "fas fa-gamepad"
 
         [[params.hobby.list]]
-            hobby = "Cooking"
+            hobby = "Fitness"
         [[params.hobby.list]]
             hobby = "Hiking"
         [[params.hobby.list]]
-            hobby = "Baking"
+            hobby = "Video Gaming"

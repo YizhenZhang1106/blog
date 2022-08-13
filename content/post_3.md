@@ -17,42 +17,36 @@ title: The evaluation of negative impact of violation on restaurants in Boston.
 
 ![cover](/blog/post_3_files/cover.webp)
 # Executive Summary
-For this project we use the Food Inspections data set from Harvard Dataverse. The dataset describes the structures and organizations of the Food Establishment Inspection dataset gathered by the Boston Area Research Initiative (BARI). The Food Inspections dataset is released by the Health Division of the Department of Inspectional Services of Boston which, including all food establishments in the City of Boston contains sanitary codes and standards.
+The dataset describes the structures and organizations of the Food Establishment Inspection dataset gathered by the Boston Area Research Initiative (BARI). The Food Inspections dataset is including all food establishments in the City of Boston contains sanitary codes and standards.
 
-By overlooking our data, our final goal is to use the variables from the data to build a predict model or ranking system for restaurants based on different types of violation records and using the violation description to determine the coefficient of the ranking and predict model. Ultimately, using our predict model to analyze restaurants’ quality, based on food, service, environment, and price.
+By overlooking our data, our goal is to use the variables from the data to build a predict model or ranking system for restaurants based on different types of violation records.
 
 # Main findings
-•	Some neighborhoods have very low license active rate and violation pass rate, but they have a good taste of food based on the comments from the customers. By better understanding the reason for low license active rate with good taste of food, we need to visit that specific area, and test several restaurants in that area. We also need a long period of time to see the violations occur for what kinds of reasons, the violations probably occur for non-human factors, such as weather conditions, pandemic outbreak, and level chaos in that neighborhood, etc.
+•	Some neighborhoods have very low license active rate and violation pass rate, but they have a good taste of food based on the comments from the customers. 
 
-• The longer duration of a restaurant's license has better violation test pass rate, we run correlation test and regression model that find out the duration of license and violation pass rate have very strong positive correlation. We also need to look at the restaurants with inactive status, to analyze it. To see how many violations or how many violations in different violation levels, and what about violation pass rate will let the license become inactive. We need to aggregate and summarize all the violation records under one restaurant, to see each restaurant’s numbers of violation, and single restaurant’s violation pass rate.
+• The longer duration of a restaurant's license has better violation test pass rate, we run correlation test and regression model that find out the duration of license and violation pass rate have very strong positive correlation. 
 
-•	Violation scores and the vulnerability model for restaurants, we are using violation description to select keywords for the list and convert them into dummy variables, based on those base scores multiplied by different violation levels, it turns out our final violation score to evaluate the negative impact about violations. For more precise measurement, we should include comments from the customers, we should focus on that part for our further study.
+•	Violation scores and the vulnerability model for restaurants, we are using violation description to select keywords for the list and convert them into dummy variables, based on the dummy variables multiplied by different violation levels, it turns out our final violation score to evaluate the negative impact toward restaurants. 
 
 •	Using Violation pass rate and license active rate to build restaurants operation rate:
-Based on my restaurant operation measurement, I was combining violation pass rate plus the license active rate.  It will give us three different results on each record (2,1,0), for the record has both pass on violation test and active on license status is equal 2, and violation test is pass and inactive on license status or get fail on violation test and active on license status is equal 1, and the records for both fail on violation test and inactive on license status.
+it will give us three different results on each record (2,1,0), for the record has both pass on violation test and active on license status is equal 2, and violation test is pass and inactive on license status or get fail on violation test and active on license status is equal 1, and the records for both fail on violation test and inactive on license status.
 
 ![violation rate](/blog/post_3_files/project3-1.png)
 
 # 1. Telling a data story
 
-There are almost 300,000 records, and 31 variables in our data, the data collected from 2010 to 2020. And most variables in our data set were texts, so in our project we just focus on the violation level, violation status, license status. And for those variables are binary variables which was a little bit hard to see the clear pattern. So, we just focus on the violations on our project.
+There are almost 300,000 records, and 31 variables in our data, the data collected from 2010 to 2020. We just focus on the violation level, violation status, license status. 
 
 ![violation level](/blog/post_3_files/project3-2.png)
 
 # 2. Creating new variables
 
-To better understand food inspection data, there is lots of information that needs to process the food inspection data to see the pattern of the data more clearly. Another aspect is that there is some data that may not seem very useful as a single column but when combined with other columns might be interesting to analyze. I select three major variables: city, license status, and violation status. The new variables that I created, violation pass rate, license active rate, and operation ability helped me find some fun facts about Boston’s restaurant. More than 65% of the restaurants have active license status. Then, more than 55% of restaurants have failed violations tests. Finally, only about 30% of restaurants have both passed the result on violation test and active license status.
-
-![pass/fail](/blog/post_3_files/project3-3.png)
+To better understand food inspection data, I select three major variables: city, license status, and violation status. The new variables that I created, violation pass rate, license active rate, and operation ability helped me find some fun facts about Boston’s restaurant. ![pass/fail](/blog/post_3_files/project3-3.png)
+More than 65% of the restaurants have active license status. Then, more than 55% of restaurants have failed violations tests. Finally, only about 30% of restaurants have both passed the result on violation test and active license status.
 
 # 3. Measuring new variables
 
-I combine the violation status and license status, to calculate restaurants’ operation ability. Higher score means the restaurants have a good ability to handle and solve the violation issue in a short time or have those high standards of execution of a high standard of health safety environment.
-
-![pass rate](/blog/post_3_files/project3-4.png)
-![active rate](/blog/post_3_files/project3-5.png)
-
-Then using the license active rate and violation pass rate to make a model about restaurants’ quality. Based on violation status and license status as a measurement to evaluate the quality. Firstly, we used the new variables that transfer from the original variable ‘license status’: “active”, “inactive” as numeric, active=1, inactive=0, and another variable ‘violation status’: “Pass”, “Fail”, pass=1, fail=0. Second, we use new numeric variables: license status and violation status to calculate the mean in each city. The mean value in each city represents the percentage of restaurants that are being active or passing the test in that city. By observing the plots, the license active rate in each city looks similar, but the pattern in violation pass rate was different. There are some outliers in Chestnut Hill, and South End because there is only one restaurant on the record located in these two cities. 
+I combine the violation status and license status, to calculate restaurants’ operation ability. Higher score means the restaurants have a good ability to handle and solve the violation issue in a short time or have those high standards of execution of a high standard of health safety environment.![pass rate](/blog/post_3_files/project3-4.png)![active rate](/blog/post_3_files/project3-5.png) Then using the license active rate and violation pass rate to make a model about restaurants’ quality. Based on violation status and license status as a measurement to evaluate the quality. Firstly, we used the new variables that transfer from the original variable ‘license status’: “active”, “inactive” as numeric, active=1, inactive=0, and another variable ‘violation status’: “Pass”, “Fail”, pass=1, fail=0. Second, we use new numeric variables: license status and violation status to calculate the mean in each city. The mean value in each city represents the percentage of restaurants that are being active or passing the test in that city. By observing the plots, the license active rate in each city looks similar, but the pattern in violation pass rate was different. There are some outliers in Chestnut Hill, and South End because there is only one restaurant on the record located in these two cities. 
 
 ![operation ability](/blog/post_3_files/project3-6.png)
 
@@ -83,6 +77,7 @@ However, by observing the license active rate heat map was quite different from 
 
 Finally, looking at the violation score map, the distribution of the map is even, downtown Boston has a lower score compared to other areas, the restaurant located in the downtown area will have a better quality of restaurant compared to other areas.
 
-# 7. Conclusion and Discussion
-The violation score, and license active rate have negative correlation. Most restaurants usually got violation on level 1 with multiply time, we assume that when restaurant violations on level 1 which they didn’t pay much attention to it, because the policy for violation level 1 probability won’t have any fine and tickets, it just a warning for the restaurant, and don’t have any influence toward their license. We suggest that the Health Division of the Department of Inspectional Services should a system to calculate each restaurant’s violation status on a score level, when restaurant receive a violation with score, when the score reach recent point, license will be terminated. When the restaurant wants re-issue their license, they need serious test or pay fees to re-issue it.
+# 7. Conclusion 
+The violation score, and license active rate have negative correlation. Most restaurants usually got violation on level 1 with multiply times, we assume that when restaurant violations on level 1 which they didn’t pay much attention to it. We suggest that the Health Division of the Department of Inspectional Services should a system to calculate each restaurant’s violation status on a score level, when restaurant receive a violation with score, when the score reach recent point, license will be terminated. When the restaurant wants re-issue their license, they need serious test or pay fees to re-issue it.
 
+[Back to Homepage](https://yizhen1106-portfolio.netlify.app/)
