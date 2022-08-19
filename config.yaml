@@ -68,13 +68,13 @@ params:
       - description: Using data for restaurant food inspections in Boston from 2010 to 2020. 
         title: Analysis of food safety testing data reports for restaurants in Boston, USA
         url: '/post_3'
-      - description: Poster
+      - description: Poster-Use airbnb data to analyze Airbnb length of stay, type of rooms, and regional distribution of homes/rooms. Also, analyze landlord's investment patterns. 
         title: My City Space and Time-Airbnb Dataset
         url: '/post_4'
-      - description: Poster
+      - description: Poster-Using building permit data to predict Boston's development plan.
         title: Building Permit in Boston during COVID-19, and City's Development Trend
         url: '/post_5'
-      - description: Poster
+      - description: Poster-the COVID-19 negative impact on resident's income, and ecomomy.
         title: The effect of COVID on NYC citizens by income
         url: '/post_6'
     title: Project & Poster
