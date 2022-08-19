@@ -59,13 +59,13 @@ params:
   project:
     icon: fas fa-project-diagram
     list:
-      - description: Collecting PM2.5 concentration data for California in 2020 and combined them with wildfires data from CA government website. Using ArcGIS to conduct a spatial analysis to compare the high PM2.5 concentrations and finding areas with the current population mobility and to analyze whether there is a correlation and generate a regression model based on the correlation.
+      - description: Collecting PM2.5 concentration data for California in 2020 and combined them with wildfires data from CA government website. Using population mobility data and Air quality data finding any correlation and regression.
         title: Data Analysis Report on the Relationship between Air Quality and Population Mobility in California, USA
         url: '/post_1/'
-      - description: Based on the distribution of existing on-street parking meters in the City of Boston, create a prediction model was developed to analyze the areas and streets where new parking meters could be installed.
+      - description: Based on the distribution of existing on-street parking meters in the City of Boston, finding possible areas and streets where new parking meters could be installed. 
         title: Boston street parking meter installation plan
         url: '/post_2'
-      - description: An exploratory data analysis was conducted using R for restaurant food inspections in Boston from 2010 to 2020. To use the variables from the data to build a predict model or ranking system for restaurants based on different types of violation records and using the violation description to determine the coefficient of the ranking and predict model.
+      - description: Using data for restaurant food inspections in Boston from 2010 to 2020. 
         title: Analysis of food safety testing data reports for restaurants in Boston, USA
         url: '/post_3'
       - description: Poster
