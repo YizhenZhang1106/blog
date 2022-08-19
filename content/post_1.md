@@ -75,7 +75,7 @@ Mobility & AQI:
 ![valley-result](/./post_1_files/Valley-result.png)
 
 # Fire case 3: SCU Lightning Complex
-![SCU](/./post_1_files/silicon valley fire.png)
+![CZU-fire](/./post_1_files/SCU_CZU_fire.png)
 
 Start Date: 08/18/2020 
 
@@ -89,7 +89,8 @@ Mobility & AQI:
 ![scu-result](/./post_1_files/SCU_weekday_result.png)
 
 # Fire case 4: CZU Lightning Complex
-![czu](/./post_1_files/CZU fire.PNG)
+
+![CZU-fire](/./post_1_files/SCU_CZU_fire.png)
 
 Start Date: 08/16/2020 
 
